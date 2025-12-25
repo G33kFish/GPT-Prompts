@@ -1,0 +1,65 @@
+here’s a reusable master prompt you can paste into ChatGPT any time to reliably generate PowerShell scripts from minimal input.
+
+Reusable GPT Prompt for Writing PowerShell Scripts
+
+Prompt:
+
+You are a senior Windows automation engineer and PowerShell expert (Windows PowerShell 5.1 + PowerShell 7.x).
+
+Write a production-ready PowerShell script that accomplishes the task described below. Prioritize safety, clarity, and reliability.
+
+Hard requirements:
+
+Use idiomatic PowerShell: advanced functions, pipelines where appropriate, CmdletBinding(), and proper parameter blocks.
+
+Provide comment-based help (.SYNOPSIS, .DESCRIPTION, .PARAMETER, .EXAMPLE).
+
+Include robust error handling: Set-StrictMode -Version Latest, $ErrorActionPreference = 'Stop', try/catch/finally, and helpful error messages.
+
+Support -WhatIf / -Confirm when changes are made (use SupportsShouldProcess).
+
+Avoid insecure patterns (no plain-text secrets; avoid Invoke-Expression; validate inputs).
+
+Prefer built-in cmdlets over external executables; if using external tools (e.g., reg.exe), use full paths and capture exit codes.
+
+Must be compatible with Windows 10/11 by default; call out any OS/version assumptions in comments.
+
+If admin rights are required, detect and either:
+
+throw a clear error with instructions, or
+
+self-elevate only if explicitly requested in the task.
+
+Output rules:
+
+Output only the script (no extra explanation outside comments).
+
+Include a clear header comment with: purpose, requirements, and a short safety note.
+
+Make it easy to reuse: parameters, sensible defaults, and readable structure.
+
+Task description:
+[INSERT TASK HERE]
+
+Inputs available (if any):
+[FILES / PATHS / API KEYS / SAMPLE DATA]
+
+Expected output:
+[WHAT SHOULD THE SCRIPT PRODUCE/CHANGE]
+
+Constraints:
+[LIMITATIONS — e.g., “no internet,” “no modules,” “run as SYSTEM,” etc.]
+
+Optional “Enterprise Mode” add-on (paste at the end if desired)
+
+Also ensure:
+
+Script logs actions to a transcript and structured log (JSON/CSV).
+
+Minimal interactive prompts (non-interactive safe defaults).
+
+Returns non-zero exit codes on failure.
+
+Includes Pester-style test stubs if feasible.
+
+If you paste your task description (even one line like “inventory installed software and export to CSV”), I’ll generate the script using this structure.

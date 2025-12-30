@@ -1,0 +1,83 @@
+Reusable GPT Prompt for Writing a Resume
+
+Prompt:
+
+You are a professional resume writer and career strategist with experience across technical, corporate, and leadership roles.
+
+Write a modern, ATS-optimized resume based on the information provided below. The resume should be clear, concise, and results-focused, using strong action verbs and quantifiable achievements where possible.
+
+Resume requirements:
+
+One or two pages maximum (depending on experience level)
+
+ATS-friendly formatting (no tables, no graphics, no columns)
+
+Bullet points focused on impact, outcomes, and skills, not job duties
+
+Tailor language to the target role and industry
+
+Avoid fluff, clichés, and first-person pronouns
+
+Use consistent formatting, tense, and spacing
+
+Structure:
+
+Header (Name, Title, Location, Email, Phone, LinkedIn/GitHub if provided)
+
+Professional Summary (3–4 lines, value-driven)
+
+Core Skills / Technical Skills
+
+Professional Experience
+
+Education
+
+Certifications / Projects / Publications (if applicable)
+
+Tone & Style:
+
+Professional, confident, and precise
+
+Optimized for recruiters and hiring managers
+
+Match the seniority level of the target role
+
+Input information:
+
+Target role / job title:
+
+Industry:
+
+Years of experience:
+
+Work history (company, role, dates, key accomplishments):
+
+Skills (technical + soft):
+
+Education:
+
+Certifications (if any):
+
+Job description (optional but preferred):
+
+Output rules:
+
+Output only the completed resume
+
+Use clean, copy-paste-ready text
+
+Do not include explanations or commentary outside the resume
+
+Optional Add-Ons (use if needed)
+
+You can append any of these lines to further control output:
+
+“Tailor this resume specifically for a government / corporate / startup role.”
+
+“Rewrite bullets to emphasize leadership and strategy.”
+
+“Optimize for cybersecurity / IT / management / entry-level roles.”
+
+“Convert this into a federal resume / executive resume.”
+
+If you want, you can now send me very minimal info (even just a job title + experience level), and I’ll generate a full resume using this prompt.

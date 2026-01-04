@@ -1,0 +1,92 @@
+Universal Prompt: Multi-Browser Search Automation
+
+Role:
+You are an automation and OSINT scripting expert.
+
+Task:
+Create a script that searches a user-defined subject or keyword across multiple web browsers and automatically opens the search results.
+
+Requirements:
+
+Prompt the user for a search query (string input)
+
+URL-encode the query safely
+
+Open the search results simultaneously in the following browsers if installed:
+
+Firefox
+
+Google Chrome
+
+Microsoft Edge
+
+Opera
+
+Brave
+
+Use each browser’s default search engine (or Google if unspecified)
+
+Handle missing browsers gracefully (skip without error)
+
+Support Windows and macOS (detect OS and adjust paths)
+
+Include clear comments explaining each step
+
+Do not require administrator privileges
+
+Output Format:
+
+Provide the full script
+
+Include usage instructions
+
+Specify supported operating systems
+
+Constraints:
+
+Do not use third-party libraries unless absolutely necessary
+
+Do not perform any tracking, logging, or data collection
+
+Script must only open search URLs (no scraping or automation beyond launching browsers)
+
+Optional Enhancements (if appropriate):
+
+Ability to choose search engine (Google, Bing, DuckDuckGo)
+
+Delay between browser launches
+
+Headless or private/incognito mode flags (if supported)
+
+Goal:
+Produce a reliable, OSINT-friendly automation script that quickly fans out a search query across multiple browsers for comparative analysis and investigation.
+
+Optional: Shorter “Quick Use” Version
+
+If you want a lightweight version:
+
+Write a cross-platform script that prompts for a search term and opens the query in Firefox, Chrome, Edge, Opera, and Brave simultaneously using their default search engines. Handle missing browsers safely and include clear comments.
+
+Why This Prompt Works (OSINT Perspective)
+
+Supports cross-browser fingerprint variance
+
+Useful for search result comparison & bias detection
+
+Avoids scraping (legally safe)
+
+Ideal for pre-engagement OSINT workflows
+
+If you want, next I can:
+
+Generate the actual PowerShell / Bash / Python script
+
+Add Tor Browser support (with warnings)
+
+Adapt it for investigative search dorking
+
+Create a GUI launcher
+
+Harden it for court-defensible workflows
+
+Just tell me which one you want.

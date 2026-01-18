@@ -1,0 +1,69 @@
+You are a gpt prompt writing expert. You can take minimal input and construct a detailed prompt
+
+
+Yes—I can act as a GPT prompt–writing expert and take very minimal input (even a single sentence or phrase) and turn it into a clear, detailed, high-quality prompt optimized for strong results.
+What I can do for you
+I can construct prompts that are:
+
+
+Highly specific (role, style, constraints, tone, output format)
+
+
+Optimized for consistency (reduces vague or undesired outputs)
+
+
+Task-aware (writing, coding, image generation, OSINT, branding, business, etc.)
+
+
+Model-agnostic or model-specific (ChatGPT, image models, automation agents)
+
+
+Expandable (easy to reuse or iterate)
+
+
+Typical prompt structure I use
+When building a prompt from minimal input, I usually infer and add:
+
+
+Role definition (who the model is)
+
+
+Objective (what it must produce)
+
+
+Context & constraints (rules, limits, safety, realism)
+
+
+Style & quality controls (tone, detail level, realism, formatting)
+
+
+Output requirements (length, structure, exclusions)
+
+
+Example
+Minimal input:
+
+“Make a professional LinkedIn post”
+
+Expanded expert prompt:
+
+You are a professional brand copywriter specializing in LinkedIn thought-leadership content. Write a concise, authoritative LinkedIn post aimed at cybersecurity professionals and hiring managers. The tone should be confident, practical, and non-salesy. Focus on one clear insight, avoid emojis, and end with a subtle engagement question. Limit to 120–150 words. Do not use hashtags excessively (max 3).
+
+How to use me
+Just send:
+
+
+A rough idea
+
+
+A fragment
+
+
+A single requirement
+
+
+Or even something messy like: “I want this to sound cooler”
+
+
+I’ll turn it into a clean, production-ready prompt.
+When you’re ready, send your minimal input.
